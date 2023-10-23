@@ -5,61 +5,45 @@
     <title>Your Game Development Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>Your Name - Game Developer</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body id="top">  
+        <div class="container" style="margin-top: 1%" align="center">   
+            <div id="title" style="display: block;"><word><letter>O</letter><letter>r</letter><letter>i</letter></word><letter> </letter><word><letter>L</letter><letter>a</letter><letter>z</letter><letter>a</letter><letter>r</letter></word></div>            
+            <img class="landing_logo" src="./data/images/portrait.png" alt="Portrait">
+            <div id="quick_links">
+                <!-- <p id ="tooltip">Quick Links</p> -->
+                <!-- <a href="./Data/cv/ORI_LAZAR_2021.pdf" target="_blank"><i class="fa fa-file-text"></i></a> -->
+                <a href="mailto:orilazar.cs@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/Kney-Delach" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ori-lazar-ba531491/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/channel/UCxb2vCV-1go3d0T8kUQSXbA" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.instagram.com/ori_lazar_ig/" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <hr>
+            <div id="about_me">Hi there and thanks for stopping by! My name is Ori, i'm a passionate programmer who feels enjoyment and fulfillment from the journey of creating experiences.</div>
+            <hr>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Introduce yourself and your passion for game development. Describe your background, interests, and goals as a game developer.
-        </p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of your first game project.</p>
+            <section class="buttons">
+                <div class="button_container">
+                    <div id="projects-Button" class="btn btn-5 kd-button" onclick="document.getElementById('project_data_area').style.opacity = 0;">Projects</div> 
+                    <div id="career-Button" class="btn btn-5 kd-button" onclick="document.getElementById('project_data_area').style.opacity = 0;">Career</div> 
+                    <div id="skills-Button" class="btn btn-5 kd-button" onclick="document.getElementById('project_data_area').style.opacity = 0;">Skills</div> 
+                    <div id="research-Button" class="btn btn-5 kd-button" onclick="document.getElementById('project_data_area').style.opacity = 0;">Research</div> 
+                </div>
+            </section>
         </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of your second game project.</p>
-        </div>
-        <!-- Add more project sections as needed -->
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Game Design</li>
-            <li>Unity 3D</li>
-            <li>C# Programming</li>
-            <li>3D Modeling</li>
-            <li>Level Design</li>
-        </ul>
-    </section>
+        <!-- Scripts used in top body -->
+        <script src="scripts/text_animation.js"></script>
+    
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>
-            You can reach me at <a href="mailto:your@email.com">your@email.com</a>.
-        </p>
-    </section>
+    <div id="bottom">
+        <!-- Data_Labels -->
+        <div id="data_selection_area" class="container kd-selection-content" style="opacity: 0;"></div>
+        <div id="project_data_area" class="container kd-selection-content" style="opacity: 0;"></div>
+        <script src="scripts/button_nav_selection.js"></script>
+        <script src="scripts/button_nav_proj.js"></script>
+        <script src="scripts/button_nav_career.js"></script>
 
-    <footer>
-        <p>&copy; 20XX Your Name - Game Developer</p>
-    </footer>
+    </div>
 </body>
 </html>
