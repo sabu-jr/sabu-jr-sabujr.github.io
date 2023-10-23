@@ -5,7 +5,7 @@
 const ProjectNames = 
 [
     "cherryChase",
-    "mirage",
+    "droneSimulation",
     "exalted",
     "15_puzzle",
     "game_tech",
