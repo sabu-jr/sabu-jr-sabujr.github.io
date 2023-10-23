@@ -4,7 +4,7 @@
 
 const ProjectNames = 
 [
-    "mapex",
+    "cherryChase",
     "mirage",
     "exalted",
     "15_puzzle",
