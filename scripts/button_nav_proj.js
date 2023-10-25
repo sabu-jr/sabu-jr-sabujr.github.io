@@ -6,7 +6,7 @@ const ProjectNames =
 [
     "cherryChase",
     "droneSimulation",
-    "exalted",
+    "Flutter",
     "15_puzzle",
     "game_tech",
     "vpa"
