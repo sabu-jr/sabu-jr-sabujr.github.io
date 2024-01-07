@@ -7,7 +7,8 @@ const ProjectNames =
     "cherryChase",
     "droneSimulation",
     "Flutter",
-    "selectingVoice"
+    "selectingVoice",
+    "LostInMuseum"
 ]
 
 let ProjectText = [];
