@@ -41,6 +41,22 @@
     text-align: center;
     font-family: 'cascadia', 'monospace';
 }
+#mirage_ul
+{
+    text-align: center;
+    font-family: 'cascadia', 'monospace';
+    list-style-type: disc; /* Set the bullet style for the list items */
+    padding-left: 40px; /* Indent the list items */
+    margin: 0; /* Remove default margin */
+}
+
+/* Styles for list items */
+#mirage_li
+{
+    text-align: center;
+    font-family: 'cascadia', 'monospace';
+    margin-bottom: 10px; /* Add spacing between list items */
+}
 
 #mirage_youtube
 {
